@@ -83,5 +83,5 @@ if streamlit.button('Add a Fruit to the List'):
       streamlit_text(back_from_function)
 streamlit.write('Thanks for adding ', add_my_fruit)
 
-#streamlit.stop()
+streamlit.stop()
 my_cur.execute("insert into pc_rivery_db.public.fruit_load_list values ('from streamlit');")
